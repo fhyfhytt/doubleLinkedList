@@ -16,6 +16,7 @@ typedef struct listPoint
     listPoint *last;
 } listPoint;
 class List {
+
 private:
     listPoint * head;
     listPoint * tail;
