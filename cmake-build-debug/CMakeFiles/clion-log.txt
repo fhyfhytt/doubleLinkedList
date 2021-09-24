@@ -1,4 +1,16 @@
 "E:\cc\CLion 2021.2\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -DCMAKE_DEPENDS_USE_COMPILER=FALSE -G "CodeBlocks - MinGW Makefiles" C:\Users\Administrator\Desktop\c++\app
--- Configuring done
--- Generating done
--- Build files have been written to: C:/Users/Administrator/Desktop/c++/app/cmake-build-debug
+-- Conan: Adjusting output directories
+-- Conan: Using cmake global configuration
+-- Conan: Adjusting default RPATHs Conan policies
+-- Conan: Adjusting language standard
+-- Current conanbuildinfo.cmake directory: C:/Users/Administrator/Desktop/c++/app/cmake-build-debug
+CMake Error at cmake-build-debug/conanbuildinfo.cmake:682 (message):
+  Incorrect 'Visual Studio'.  Toolset specifies compiler as 'MSVC' but CMake
+  detected 'GNU'
+Call Stack (most recent call first):
+  cmake-build-debug/conanbuildinfo.cmake:251 (conan_check_compiler)
+  CMakeLists.txt:7 (conan_basic_setup)
+
+
+-- Configuring incomplete, errors occurred!
+See also "C:/Users/Administrator/Desktop/c++/app/cmake-build-debug/CMakeFiles/CMakeOutput.log".
